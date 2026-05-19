@@ -2,12 +2,15 @@
 //  Logger.swift
 //  Core
 //
-//  Created by Jefferson Carlos Souza da Silva on 16/05/2026.
+//  Created by Jefferson Carlos Souza da Silva on 19/05/2026.
 //
+
+import os
 
 public class Logger {
     
-    final class func log() {
-        print("ddd")
+    final class func log(_ message: String) {
+        let app = OSLog(subsystem: "com.icapps.app", category: "Player")
+        os_log("▶️ Start playing", log: app, type: .info)
     }
 }
