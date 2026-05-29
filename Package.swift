@@ -14,15 +14,6 @@ let package = Package(
         )
     ],
     targets: [
-        .target(
-            name: "JSCore",
-            dependencies: [],
-            path: ".",
-            exclude: [],
-            sources: [],
-            resources: [],
-            publicHeadersPath: ""
-        ),
         .binaryTarget(
             name: "JSCore",
             path: "JSCore.xcframework.zip"
