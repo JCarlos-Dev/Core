@@ -13,14 +13,8 @@ let package = Package(
             targets: ["JSCore"]
         )
     ],
-    dependencies: [
-        
-    ],
+    dependencies: [],
     targets: [
-        .binaryTarget(
-            name: "JSCore",
-            path: "JSCorePackage/JSCore.xcframework.zip"
-        ),
         .binaryTarget(
             name: "JSCore",
             url: "https://github.com/JCarlos-Dev/Core/blob/main/JSCorePackage/JSCore.xcframework.zip",
