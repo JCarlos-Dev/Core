@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		3202242E2FB8C61500F594CE /* JSCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSCore.framework; path = "/Users/jeffersonsilva/Documents/Projects/iOS/Core/build/Debug-iphoneos/JSCore.framework"; sourceTree = "<absolute>"; };
+		32446D222FC3998000F76823 /* JSCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32446D282FC9026C00F76823 /* JSCorePackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = JSCorePackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +33,7 @@
 		320224242FB8C61500F594CE = {
 			isa = PBXGroup;
 			children = (
+				32446D282FC9026C00F76823 /* JSCorePackage */,
 				3202242F2FB8C61500F594CE /* Products */,
 				320224302FB8C61500F594CE /* JSCore */,
 			);
@@ -40,6 +42,7 @@
 		3202242F2FB8C61500F594CE /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				32446D222FC3998000F76823 /* JSCore.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,7 +80,7 @@
 			packageProductDependencies = (
 			);
 			productName = Core;
-			productReference = 3202242E2FB8C61500F594CE /* JSCore.framework */;
+			productReference = 32446D222FC3998000F76823 /* JSCore.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -283,7 +286,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = com.silva.jefferson.Core;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -318,7 +321,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = com.silva.jefferson.Core;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
