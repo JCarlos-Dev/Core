@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "JSCore1",
+    name: "JSCore",
     platforms: [
         .iOS(.v13)
     ],
@@ -17,6 +17,11 @@ let package = Package(
         .binaryTarget(
             name: "JSCore",
             path: "JSCore.xcframework.zip"
+        ),
+        .binaryTarget(
+            name: "SomeRemoteBinaryPackage",
+            url: "https://github.com/JCarlos-Dev/Core/blob/main/JSCorePackage/JSCore.xcframework.zip",
+            checksum: "The checksum of the XCFramework inside the ZIP archive."
         )
     ]
 )
