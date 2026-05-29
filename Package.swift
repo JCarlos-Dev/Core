@@ -15,7 +15,7 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
-        .binaryTarget(
+        .target(
             name: "JSCore",
             url: "https://github.com/JCarlos-Dev/Core/blob/main/JSCorePackage/JSCore.xcframework.zip",
             checksum: "The checksum of the XCFramework inside the ZIP archive."
