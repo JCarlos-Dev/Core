@@ -19,7 +19,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "JSCore",
-            path: "JSCore.xcframework.zip"
+            path: "JSCorePackage/JSCore.xcframework.zip"
         ),
         .binaryTarget(
             name: "JSCore",
