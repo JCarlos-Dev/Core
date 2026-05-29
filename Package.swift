@@ -13,6 +13,9 @@ let package = Package(
             targets: ["JSCore"]
         )
     ],
+    dependencies: [
+        
+    ],
     targets: [
         .binaryTarget(
             name: "JSCore",
