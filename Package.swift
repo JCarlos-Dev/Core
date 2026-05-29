@@ -19,7 +19,7 @@ let package = Package(
             path: "JSCore.xcframework.zip"
         ),
         .binaryTarget(
-            name: "SomeRemoteBinaryPackage",
+            name: "JSCore",
             url: "https://github.com/JCarlos-Dev/Core/blob/main/JSCorePackage/JSCore.xcframework.zip",
             checksum: "The checksum of the XCFramework inside the ZIP archive."
         )
