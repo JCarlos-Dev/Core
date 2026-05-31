@@ -8,8 +8,7 @@
 
 /* Begin PBXFileReference section */
 		32446D222FC3998000F76823 /* JSCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		32446D282FC9026C00F76823 /* JSCorePackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = JSCorePackage; sourceTree = "<group>"; };
-		32446D372FCA54DA00F76823 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		32446D422FCCABF400F76823 /* JSCorePackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = JSCorePackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -34,8 +33,7 @@
 		320224242FB8C61500F594CE = {
 			isa = PBXGroup;
 			children = (
-				32446D372FCA54DA00F76823 /* Package.swift */,
-				32446D282FC9026C00F76823 /* JSCorePackage */,
+				32446D422FCCABF400F76823 /* JSCorePackage */,
 				3202242F2FB8C61500F594CE /* Products */,
 				320224302FB8C61500F594CE /* JSCore */,
 			);
